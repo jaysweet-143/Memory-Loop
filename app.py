@@ -31,6 +31,22 @@ h1, h2, h3 {
     letter-spacing: 0.5px;
 }
 
+/* Responsive single-line Hero Title that stays centered on all phones */
+.hero-title {
+    font-family: 'Pacifico', cursive !important;
+    font-weight: 400 !important;
+    color: #FFFFFF !important;
+    text-shadow: 0 3px 12px rgba(142, 15, 70, 0.4);
+    text-align: center !important;
+    font-size: clamp(1.75rem, 7.2vw, 3rem) !important;
+    white-space: nowrap !important;
+    width: 100% !important;
+    display: block !important;
+    margin: 0 auto 10px auto !important;
+    padding: 0 !important;
+}
+
+
 /* Make Story Tab Labels Readable on Hot Pink */
 button[data-baseweb="tab"] p {
     font-family: 'Quicksand', sans-serif !important;
@@ -149,7 +165,7 @@ button[data-baseweb="tab"] p {
 """, unsafe_allow_html=True)
 
 # 3. Hero Header
-st.markdown("<h1 style='text-align: center;'>🎀 Memory Loop 🎀</h1>", unsafe_allow_html=True)
+st.markdown("<div class='hero-title'>🎀 Memory Loop 🎀</div>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align: center; font-size: 1.1rem; color: #FFF5F9; font-weight: 600;'>"
     "A nostalgic digital scrapbook of your favorite Chat memories, late-night talks & inside jokes."
