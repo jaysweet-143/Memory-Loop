@@ -1,4 +1,4 @@
-# 🎀 Memory Loop — Chat Wrapped
+# 🎀 Memory Loop — Chat Memories Wrapped
 
 A nostalgic, interactive digital scrapbook that turns any exported WhatsApp chat (`.txt`) into a personalized "Year in Review" experience. Built for both one-on-one chats and close friend groups.
 
